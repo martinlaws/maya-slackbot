@@ -4,6 +4,7 @@
   "description": "Automated Low Tide Consulting's HR department: meet the digital embodiment of @mayanoteef",
   "main": "index.js",
   "scripts": {
+    "start": "npx nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/martinlaws/maya-slackbot/issues"
   },
-  "homepage": "https://github.com/martinlaws/maya-slackbot#readme"
+  "homepage": "https://github.com/martinlaws/maya-slackbot#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "slackbots": "^1.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
